@@ -7,5 +7,5 @@ app.listen({
     port: Number(port),
     host: host,
 }).then(() => {
-    console.log(`HTTP Server Running on http://${host}:${post}`)
+    console.log(`HTTP Server Running on http://${host}:${port}`)
 })
